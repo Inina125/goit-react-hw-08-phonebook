@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import { StyledNavLink } from '../Styles';
 import { AuthCont } from './AuthNav.styled';
 
