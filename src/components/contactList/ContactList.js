@@ -17,7 +17,9 @@ const ContactList = () => {
 
   let contactItems = contacts;
   if (filter) {
-    contactItems = contactItems.filter(item => item.name.includes(filter));
+    contactItems = contactItems.filter(item =>
+      item.name.toLowerCase().includes(filter.toLowerCase())
+    );
   }
 
   return (
